@@ -1,0 +1,141 @@
+label{
+   display: none;
+}
+*{
+ margin: 0px;
+ box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+main{
+    display: flex;
+    margin-top: 50px;
+}
+#left_header{
+    padding: 0.5rem 1rem 0.5rem 2rem;
+}
+#menu{
+    padding-right: 2rem;
+}
+#center_header{
+    padding: 0rem 5rem 0rem 5rem;
+    display: flex;
+    align-items: center;
+}
+#righ_header{
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.botton_menu{
+    background-color: transparent;
+    border-color: transparent;
+}
+#center_header form{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 2.2rem; 
+}   
+#center_header form input{
+    width: 20rem;
+    height: 2.6rem; 
+    border-radius: 0%;
+    border-color: #CCCC;
+    border-style: solid;
+}
+#center_header form button{
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: #CCCC;
+    border-style: solid;
+    border-left: 0.5px;
+    width: 3rem;
+    height:2.6rem;
+}
+input:focus{
+    outline: transparent;
+    outline-color: #CCCC;
+    outline-style: solid;   
+    outline-width: 1px;
+    outline-offset: 0px;
+}
+#principal{
+    width: 59rem;
+    margin-left: 5rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+#video_actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 2rem;
+}
+#canal_info{
+    display: flex;
+    align-items: center;
+}
+#texto_canal_info{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+#inscreva_se{
+    font-size: 14px;
+    font-family: Roboto-regular;
+    font-weight: 600;
+    background-color:#CC0000;
+    border: solid 1px #CC0000;
+    color: white;
+    border-radius: 2px;
+    width: 11rem;
+    height: 2.6rem;
+}
+.botao_video_actions{
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.botao_video_actions p{
+    padding-left: 10px;
+}
+#slider_bar{
+    margin: 0.5rem 5rem 2rem 0rem;
+}
+.botao_slider_bar{
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px;
+
+}
+.info_slider_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 10px 6px 10px;
+
+}
+.slider_bar_canal{
+    margin:0.5rem 0rem 0.5rem 0rem;
+}
+#info_video_principal{
+    margin: 1rem 0rem 1rem 0rem;
+}
